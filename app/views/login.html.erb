@@ -1,0 +1,6 @@
+<h1>Login</h1>
+
+<p><%= form_tag url: '/login', method: :post%>
+<%= label_tag :name, "Enter Username" %></p>
+<p><%= text_field_tag :name %></p>
+<%= submit_tag "Login" %>
